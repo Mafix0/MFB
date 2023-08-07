@@ -6,9 +6,9 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = "6396672577:AAFZlY6Gi17e_AlqnaRYmk3YS5gYsFLYa68"
     # your domain to show when download file is greater than MAX_FILE_SIZE
-    HTTP_DOMAIN = os.environ.get("HTTP_DOMAIN", "https://example.com/")
+    HTTP_DOMAIN = "https://example.com/"
     # for running on Heroku.com
-    PORT = int(os.environ.get('PORT', 5000))
+    PORT = "5000"
     # The Telegram API things
     APP_ID = "26489380"
     API_HASH = "4167d8b8779aab33b73810feb3c77021"
@@ -29,7 +29,7 @@ class Config(object):
     TG_MAX_FILE_SIZE = 1572864000
     FREE_USER_MAX_FILE_SIZE = 50000000
     # chunk size that should be used with requests
-    CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
+    CHUNK_SIZE = "128"
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
     # proxy for accessing youtube-dl in GeoRestricted Areas
