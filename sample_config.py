@@ -2,19 +2,19 @@ import os
 
 class Config(object):
     # get a token from https://chatbase.com
-    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
+    CHAT_BASE_TOKEN = "c2348abe-1048-4da0-915c-75e9f30b60ec"
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = "6396672577:AAFZlY6Gi17e_AlqnaRYmk3YS5gYsFLYa68"
     # your domain to show when download file is greater than MAX_FILE_SIZE
     HTTP_DOMAIN = os.environ.get("HTTP_DOMAIN", "https://example.com/")
     # for running on Heroku.com
     PORT = int(os.environ.get('PORT', 5000))
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = "26489380"
+    API_HASH = "4167d8b8779aab33b73810feb3c77021"
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = "932420516"
     # reg: Procedures
     UTUBE_BOT_USERS = AUTH_USERS
     SUPER_DLBOT_USERS = AUTH_USERS
